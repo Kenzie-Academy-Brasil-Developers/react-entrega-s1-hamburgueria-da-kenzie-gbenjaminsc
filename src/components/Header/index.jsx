@@ -1,3 +1,4 @@
+import './style.css'
 import InputSearch from "../InputSearch"
 
 function Header({search, setSearch, searchInput, products}) {

@@ -1,0 +1,39 @@
+.listaCartCheio {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 220px;
+    overflow-y: scroll;
+    background-color: #f5f5f5;
+    border-radius: 0px 0px 5px 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.vazio {
+    width: 290px;
+    padding: 0px;
+    margin: 0;
+}
+.vazio>li {
+    list-style: none;
+}
+.vazio>li>img {
+    width: 100%;
+}
+
+@media screen and (min-width:1024px){
+    .listaCartCheio {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .vazio {
+        overflow-y: hidden;
+        width: 100%;
+    }
+
+    .vazio>img{
+        width: 100%;
+    }
+}

@@ -1,3 +1,4 @@
+import './style.css'
 
 function Product({id, name, category, price, img, handleClick}){
 

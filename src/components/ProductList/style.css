@@ -1,0 +1,29 @@
+.vitrineProdutos {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0px;
+}
+
+.resultFilter {
+    color: #333333;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 4%;
+}
+
+strong{
+    color: #828282;
+}
+
+@media screen and (min-width:1024px) {
+    .vitrineProdutos{
+        max-width: 900px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .resultFilter{
+        margin: 4%;
+    }
+}

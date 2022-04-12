@@ -1,3 +1,4 @@
+import './style.css'
 
 function CartProduct({product, removeItem}){
     return(

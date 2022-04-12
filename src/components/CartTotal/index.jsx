@@ -1,3 +1,5 @@
+import './style.css'
+
 function CartTotal({currentSale, setCurrentSale}){
     
     const total = currentSale.reduce((acc, {price}) => acc + price, 0)
